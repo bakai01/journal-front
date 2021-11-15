@@ -8,7 +8,7 @@ import {
 import { Post } from '../../components/Post';
 import { MainLayout } from '../../layouts/MainLayout';
 
-export default function Profile() {
+const Profile = () => {
   return (
     <MainLayout contentFullWidth hideComments>
       <Paper className="pl-20 pr-20 pt-20 mb-30" elevation={0}>
@@ -70,4 +70,6 @@ export default function Profile() {
       </div>
     </MainLayout>
   );
-}
+};
+
+export { Profile };

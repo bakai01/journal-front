@@ -3,7 +3,7 @@ import { FullPost } from '../../components/FullPost';
 import React from 'react';
 import { PostComments } from "../../components/PostComments";
 
-export default function Post() {
+const Post = () => {
   return (
     <MainLayout className="mb-50" contentFullWidth>
       <FullPost />
@@ -11,3 +11,5 @@ export default function Post() {
     </MainLayout>
   );
 };
+
+export { Post };

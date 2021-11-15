@@ -13,7 +13,7 @@ import {
 import { MainLayout } from '../layouts/MainLayout';
 import { FollowButton } from '../components/FollowButton';
 
-export default function Rating() {
+const Rating = () => {
   return (
     <MainLayout>
       <Paper className="pl-20 pt-20 pr-20 mb-20" elevation={0}>
@@ -55,4 +55,6 @@ export default function Rating() {
       </Paper>
     </MainLayout>
   );
-}
+};
+
+export { Rating };

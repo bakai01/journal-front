@@ -35,7 +35,7 @@ export const Comment: React.FC<CommentPostProps> = ({ user, text, createdAt }) =
         <span>{createdAt}</span>
       </div>
       <Typography className={styles.text}>
-          {text}
+        {text}
       </Typography>
       <span className={styles.replyBtn}>Ответить</span>
       <IconButton onClick={handleClick}>

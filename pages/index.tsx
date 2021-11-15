@@ -1,7 +1,7 @@
 import { Post } from '../components/Post';
 import { MainLayout } from '../layouts/MainLayout';
 
-export default function Home() {
+const Home = () => {
   return (
     <MainLayout>
       <Post />
@@ -12,4 +12,6 @@ export default function Home() {
       <Post />
     </MainLayout>
   );
-}
+};
+
+export { Home };

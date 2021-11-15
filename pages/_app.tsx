@@ -11,7 +11,7 @@ import { Provider } from 'react-redux';
 import { store } from '../redux/store';
 import { AppProps } from 'next/app';
 
-function MyApp({ Component, pageProps }: AppProps) {
+const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
@@ -33,6 +33,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       </MuiThemeProvider>
     </>
   );
-}
+};
 
-export default MyApp;
+export { MyApp };
