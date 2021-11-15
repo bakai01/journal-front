@@ -33,6 +33,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       </MuiThemeProvider>
     </>
   );
-}
+};
 
 export default MyApp;
