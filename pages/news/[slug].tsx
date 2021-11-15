@@ -5,11 +5,11 @@ import {PostComments} from "../../components/PostComments";
 
 
 
-const Post = () => {
+export default function Post() {
   return (
     <MainLayout className="mb-50" contentFullWidth>
       <FullPost />
       <PostComments />
     </MainLayout>
   );
-}
+};

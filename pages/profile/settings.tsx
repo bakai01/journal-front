@@ -1,7 +1,7 @@
 import { Button, Divider, Paper, TextField, Typography } from '@material-ui/core';
 import { MainLayout } from '../../layouts/MainLayout';
 
-const Settings = () => {
+export default function Settings() {
   return (
     <MainLayout hideComments>
       <Paper className="p-20" elevation={0}>
@@ -33,6 +33,4 @@ const Settings = () => {
       </Paper>
     </MainLayout>
   );
-};
-
-export { Settings };
+}
